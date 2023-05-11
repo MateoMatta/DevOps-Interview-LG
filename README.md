@@ -2,7 +2,7 @@
 This repository serves as answer of the challenge proposed on the interview.
 
 It has been created a basic web site that serves of example to be deployed, to implement and show the use of Hashicorp Terraform as Infrastructure as a Code tool. All of this deployed on AWS.
-The solution has was configured with a new VPC, Subnet, Internet gateway, Route table, Security Group, LB, Autoscaling Group of just 1 instance and its proper personalized Launch configuration.
+The solution has was configured with a new VPC, Subnet, Internet gateway, Route table, Security Group, LB, Autoscaling Group of just 1 instance, and its proper personalized Launch configuration with a bash script that configures the server.
 
 ### Prerequisites
 *Terraform, Git, (particularly to perform 2nd step of environmental variables) Linux machine, .pem key pair ("candidate.pem" as it was configured on TF template)*
