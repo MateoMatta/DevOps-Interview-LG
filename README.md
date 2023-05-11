@@ -28,7 +28,7 @@ The solution has was configured with a new VPC, Subnet, Internet gateway, Route 
   
 ```terraform apply -auto-approve```
   
-4. Once the process is completed, the console will show the output of the LoadBalancer's DNS you can copy and paste on your browser, to see the website working on a few minutes.
+4. Once the process is completed, the console will show the output of the LoadBalancer's DNS. A link you can copy and paste on your browser, to see the website working on a few minutes.
   It should be shown a basic web with "Mateo Matta interview demo!" as title and a little description. 
 
 - Extra: to double-check if you're ready to watch the page working, go to EC2 Dashboard (https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances:instanceState=running;sort=instanceState), and check if the *Instance state* of **demo-asg-instance-1** is "Running" on **us-east-1** region.
