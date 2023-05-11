@@ -33,6 +33,14 @@ The solution has was configured with a new VPC, Subnet, Internet gateway, Route 
 
 - Extra: to double-check if you're ready to watch the page working, go to EC2 Dashboard (https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances:instanceState=running;sort=instanceState), and check if the *Instance state* of **demo-asg-instance-1** is "Running" on **us-east-1** region.
 
+5. Finally, once you're done seeing the result, delete the whole infrastructure built on AWS.
+
+```terraform destroy -auto-approve```
+
+Just to make sure everything is wiped out, type again
+
+```terraform destroy -auto-approve```
+
 ### Citation
 All the code rights to the developers mentioned below.
 
